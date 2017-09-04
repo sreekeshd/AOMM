@@ -1,0 +1,33 @@
+
+	<div class="panel panel-default">
+	  <!-- Default panel contents -->
+	  <div class="panel-heading">Sale
+		  <span class="pull-right add" id="add_sale">
+			  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+			  <span>Enter New Sale</span>
+		  </span>
+	  </div>
+	  <div class="panel-body">
+	  </div>
+            <table class="table table-striped" id = "saleTable">
+              <thead>
+                <tr>
+					<th>Sl No</th>
+					<th>Sale Doc No</th>
+					<th>Date</th>
+					<th>Stock Details</th>
+					<th>Sale Price</th>
+					<th>Edit</th>
+					<th>Delete</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+          </div>
+
+  	<script>
+	    $('#add_stock').click(function(e) {
+        	$("#saleModal").modal();
+    	});
+	</script>

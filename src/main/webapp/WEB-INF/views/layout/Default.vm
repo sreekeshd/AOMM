@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>A One Marketing</title>
+    <link rel="shortcut icon" href="/assets/static/images/intl_icon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="#springUrl("/assets/bootstrap-3.3.7-dist/css/bootstrap.min.css")">
+    <link rel="stylesheet" type="text/css" href="#springUrl("/assets/css/jquery.dataTables.min.css")">
+    <link rel="stylesheet" type="text/css" href="#springUrl("/assets/css/main.css")">
+    <link rel="stylesheet" type="text/css" href="#springUrl("/assets/css/sweetalert.css")">
+</head>
+<body>
+<div class="container">
+
+	<div class="page-header">
+  		<h1>Inventory Manager</h1>
+	</div>
+	
+	<div class="nav nav-pills saleStockNavBar">
+	  <li role="presentation"><a href="#springUrl("/sale")">Sale</a></li>
+	  <li role="presentation" class="active"><a href="#springUrl("/stock")">Stock</a></li>
+	</div>
+	<p></p>
+    <p></p>
+
+	<div class = "panel-wrapper">
+	</div>
+
+</div>
+
+    <script type="text/javascript" src="#springUrl("/assets/js/jquery-3.2.1.js")"></script>
+    <script type="text/javascript" src="#springUrl("/assets/bootstrap-3.3.7-dist/js/bootstrap.min.js")"></script>
+    <script type="text/javascript" src="#springUrl("/assets/js/jquery.dataTables.min.js")"></script>
+    <script type="text/javascript" src="#springUrl("/assets/js/jquery.spring-friendly.min.js")"></script>
+    <script type="text/javascript" src="#springUrl("/assets/js/sweetalert.min.js")"></script>
+    <script type="text/javascript" src="#springUrl("/assets/js/main.js")"></script>
+
+</body>
+</html>

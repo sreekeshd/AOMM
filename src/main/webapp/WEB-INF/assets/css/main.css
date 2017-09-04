@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+.add {
+    cursor: pointer;
+	background-color: #73adde;
+	border-radius: 10px;
+}
